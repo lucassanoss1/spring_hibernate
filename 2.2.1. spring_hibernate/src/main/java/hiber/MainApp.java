@@ -40,7 +40,7 @@ public class MainApp {
          System.out.println("Email = "+user.getEmail() + " ");
          System.out.println();
       }
-      User user = userService.userByCar("BMW", 789);
+      User user = userService.getUserByCar("BMW", 789);
       System.out.println(user.toString());
 
       context.close();
